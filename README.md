@@ -11,13 +11,18 @@ A compact 10-inch 8U desktop homelab housing a 4-node Dell OptiPlex micro comput
 - **Power Distribution:** VEVOR 1U 8-Outlet PDU + CyberPower UPS
 
 ## 8U Rack Allocation
-+-------------------------------------------------------+
-| U7–U8 (Top): 7" LCD Telemetry Panel (MakerWorld 1111939)|
-| U6: Yankok 12-Port Blank Keystone Patch Panel         |
-| U5: TP-Link TL-SG108PE 8-Port Switch                  |
-| U3–U4: OptiPlex 3040 Nodes #1 & #2 (1U PETG Brackets) |
-| U1–U2 (Bottom): OptiPlex 3040 #3 & 3050 Head Node     |
-+-------------------------------------------------------+
+
+| Unit | Component | Description / Mounting |
+| :---: | :--- | :--- |
+| **U8** | 7" LCD Telemetry Display | 2U Panel (MakerWorld 1111939) |
+| **U7** | Telemetry Panel Extension | (Spans U7–U8) |
+| **U6** | Keystone Patch Panel | Yankok 12-Port Blank + Cat6 Couplers |
+| **U5** | Network Switch | TP-Link TL-SG108PE 8-Port PoE Switch |
+| **U4** | Compute Node #2 | Dell OptiPlex 3040 (1U PETG Mount) |
+| **U3** | Compute Node #1 | Dell OptiPlex 3040 (1U PETG Mount) |
+| **U2** | Compute Node #3 | Dell OptiPlex 3040 (1U PETG Mount) |
+| **U1** | Head Node | Dell OptiPlex 3050 (1U PETG Mount) |
+
 ## 3D Printing Parameters (Bambu Lab PEI Plate)
 - **Filament:** Polymaker / SUNLU / Bambu Lab PETG
 - **Nozzle / Bed Temp:** 245°C / 75°C
